@@ -103,10 +103,10 @@ Console.WriteLine($"Год рождения: {birthday} (в 2030 будет {203
 Console.WriteLine($"Средний балл: {averageScore}");
 Console.WriteLine($"Балл >= 4.0: {isHighScore}");
 
-Console.Write("Введите рост в метрах (1,70): ");
+Console.Write("Введите рост в метрах: ");
 double height = double.Parse(Console.ReadLine());
 
-Console.Write("Введите вес в килограммах (60): ");
+Console.Write("Введите вес в килограммах: ");
 double weight = double.Parse(Console.ReadLine());
 
 double bmi = weight / (height * height);
@@ -122,3 +122,18 @@ string firstName = Console.ReadLine();
 char initial = firstName[0];
 
 Console.WriteLine($"{lastName} {initial}.");
+
+Console.Write("Введите целое число: ");
+string intInput = Console.ReadLine();
+bool intSuccess = int.TryParse(intInput, out int intValue);
+Console.WriteLine($"Ввод: '{intInput}' | Успех: {intSuccess} | Значение: {intValue}");
+
+Console.Write("Введите дробное число: ");
+string doubleInput = Console.ReadLine();
+bool doubleSuccess = double.TryParse(doubleInput, out double doubleValue);
+Console.WriteLine($"Ввод: '{doubleInput}' | Успех: {doubleSuccess} | Значение: {doubleValue}");
+
+Console.Write("Введите дату: ");
+string dateInput = Console.ReadLine();
+bool dateSuccess = DateTime.TryParse(dateInput, out DateTime dateValue);
+Console.WriteLine($"Ввод: '{dateInput}' | Успех: {dateSuccess} | Значение: {dateValue}");
