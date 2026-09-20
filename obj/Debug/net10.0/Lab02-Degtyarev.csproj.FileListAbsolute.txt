@@ -12,3 +12,4 @@ C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\
 C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\Lab02-Degtyarev.pdb
 C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\Lab02-Degtyarev.genruntimeconfig.cache
 C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\ref\Lab02-Degtyarev.dll
+C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\Lab02-Degtyarev.sourcelink.json
