@@ -102,3 +102,13 @@ Console.WriteLine($"{Name}, группа {Group}");
 Console.WriteLine($"Год рождения: {birthday} (в 2030 будет {2030 - birthYearConvert} год)");
 Console.WriteLine($"Средний балл: {averageScore}");
 Console.WriteLine($"Балл >= 4.0: {isHighScore}");
+
+Console.Write("Введите рост в метрах (1,70): ");
+double height = double.Parse(Console.ReadLine());
+
+Console.Write("Введите вес в килограммах (60): ");
+double weight = double.Parse(Console.ReadLine());
+
+double bmi = weight / (height * height);
+
+Console.WriteLine($"ИМТ: {bmi:F2}");
