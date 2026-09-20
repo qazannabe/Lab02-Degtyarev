@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Границы целочисленных типов");
+﻿using System.Reflection.Metadata;
+using System.Text.Json.Serialization;
+
+Console.WriteLine("Границы целочисленных типов");
 Console.WriteLine($"byte: {byte.MinValue} .. {byte.MaxValue}");
 Console.WriteLine($"short: {short.MinValue} .. {short.MaxValue}");
 Console.WriteLine($"int: {int.MinValue} .. {int.MaxValue}");
@@ -72,3 +75,30 @@ bool wasSuccessful = int.TryParse(booksInput, out int booksCount);
 
 Console.WriteLine($"Удалось преобразовать: {wasSuccessful}");
 Console.WriteLine($"Значение переменной booksCount: {booksCount}");
+
+Console.WriteLine();
+Console.WriteLine("=== Анкета ===");
+
+Console.Write("Введите имя и фамилию: ");
+string Name = Console.ReadLine();
+
+Console.Write("Введите группу: ");
+string Group = Console.ReadLine();
+
+Console.Write("Введите год рождения: ");
+string birthday = Console.ReadLine();
+
+Console.Write("Введите средний балл: ");
+double averageScore = double.Parse(Console.ReadLine());
+
+Console.Write("Введите любимую букву: ");
+char favoriteLetter = Console.ReadLine()[0];
+
+bool isHighScore = averageScore >= 4.0;
+
+Console.WriteLine();
+Console.WriteLine("  Анкета");
+Console.WriteLine($"{Name}, группа {Group}");
+Console.WriteLine($"Год рождения: {birthday} (в 2030 будет {2030 - birthYearConvert} год)");
+Console.WriteLine($"Средний балл: {averageScore}");
+Console.WriteLine($"Балл >= 4.0: {isHighScore}");
