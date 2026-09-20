@@ -1,0 +1,14 @@
+C:\Users\Администратор\Documents\Lab02-Degtyarev\bin\Debug\net10.0\Lab02-Degtyarev.exe
+C:\Users\Администратор\Documents\Lab02-Degtyarev\bin\Debug\net10.0\Lab02-Degtyarev.deps.json
+C:\Users\Администратор\Documents\Lab02-Degtyarev\bin\Debug\net10.0\Lab02-Degtyarev.runtimeconfig.json
+C:\Users\Администратор\Documents\Lab02-Degtyarev\bin\Debug\net10.0\Lab02-Degtyarev.dll
+C:\Users\Администратор\Documents\Lab02-Degtyarev\bin\Debug\net10.0\Lab02-Degtyarev.pdb
+C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\Lab02-Degtyarev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\Lab02-Degtyarev.AssemblyInfoInputs.cache
+C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\Lab02-Degtyarev.AssemblyInfo.cs
+C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\Lab02-Degtyarev.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\Lab02-Degtyarev.dll
+C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\refint\Lab02-Degtyarev.dll
+C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\Lab02-Degtyarev.pdb
+C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\Lab02-Degtyarev.genruntimeconfig.cache
+C:\Users\Администратор\Documents\Lab02-Degtyarev\obj\Debug\net10.0\ref\Lab02-Degtyarev.dll
